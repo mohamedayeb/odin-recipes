@@ -1,12 +1,51 @@
+html {
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 * {
     font-family: Verdana, Tahoma, sans-serif;
 }
-html {
-    line-height: 1.5;
+
+.title-index {
+    background-color: rgb(255, 249, 240);
+    max-width: 600px;
+    margin: 22px auto 0px;
+    padding: 30px;
+    border: 3px solid rgb(165, 42, 42);
+    border-bottom: 0px;
+}
+
+.list-index {
+    background-color: rgb(255, 249, 240);
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 3px solid rgb(165, 42, 42);
+    border-top: 0px;
+    list-style-type: circle;
+}
+
+.list-item-index {
+    margin: 8px 60px;
+    color: rgb(135, 12, 37);
+}
+
+.list-item-index a {
+    color: rgb(135, 12, 37);
+}
+
+.list-item-index a:hover {
+    background-color: rgb(207, 0, 15);
+    color: rgb(255, 250, 205);
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(250, 158, 20);
+    color: rgb(212, 57, 0);
     text-align: center;
 }
 
